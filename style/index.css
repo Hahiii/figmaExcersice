@@ -245,21 +245,21 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-
+  
   .rectangle-top, .rectangle-bottom  {
     width: 100%;
   }
-
+  
   .rectangle-top h1 {
     width: 100%;
     padding: 20px 20px 0px 27px;
   }
-
+  
   .rectangle-top p, .rectangle-bottom p {
     padding: 20px 20px 20px 27px;
     width: 100%;
-}
-
+  }
+  
   .card-container {
     flex-direction: column;
     margin: 0px 20px;
@@ -276,27 +276,31 @@ body {
     justify-content: flex-start;
     margin: 20px 0px 0px 0px;
   }
-
+  
   .rectangle-blue ul {
     padding: 20px 0px 20px 27px;
   }
-
+  
   .arrow-down {
     position: absolute;
     top:  100%;
-    left: 30%;
+    left: 50%;
     display: flex;
     flex-direction: column;
+  }
+  
+  .vector {
+    height: 110px;
   }
 
   .font p {
     padding: 30px 98px 60px 27px;
   }
-
+  
   .font h2 {
     padding: 50px 110px 0px 27px;
   }
-
+  
   .section-one::before {
     position: absolute;
     height: 100%;
@@ -332,15 +336,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  
   .section-one, .section-tow, .section-three {
     margin: 210px 0px 0px 0px;
     padding: 40px 0px 40px 0px;
     background: rgba(245, 246, 248, 0.7);
   }
-
+  
   .button {
     text-align: center;
-    margin: 20px 230px 20px 27px;
+    margin: 20px 0px 20px 27px;
+    display: inline-block;
   }
 }
